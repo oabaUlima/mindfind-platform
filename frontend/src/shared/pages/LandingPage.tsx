@@ -63,7 +63,7 @@ export function LandingPage() {
           <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-mindfind-teal-soft text-mindfind-teal">
             <ClipboardCheck className="h-6 w-6" />
           </div>
-          <h2 className="text-lg font-semibold text-slate-900">1. Cuestionario de ingreso (HU-04)</h2>
+          <h2 className="text-lg font-semibold text-slate-900">1. Cuestionario de ingreso</h2>
           <p className="mt-2 text-sm leading-relaxed text-slate-600">
             Cuatro pasos guiados para registrar tu motivo de consulta, síntomas, modalidad presencial o virtual,
             presupuesto en soles (PEN) y disponibilidad horaria.
@@ -74,7 +74,7 @@ export function LandingPage() {
           <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-white text-mindfind-teal shadow-sm">
             <ShieldAlert className="h-6 w-6" />
           </div>
-          <h2 className="text-lg font-semibold text-slate-900">2. Protocolo preventivo de crisis (HU-06)</h2>
+          <h2 className="text-lg font-semibold text-slate-900">2. Protocolo preventivo de crisis</h2>
           <p className="mt-2 text-sm leading-relaxed text-slate-600">
             Si detectamos indicadores de riesgo crítico, detenemos el flujo de emparejamiento y te brindamos acceso
             inmediato a líneas de emergencia gratuitas 24/7 en Perú.
@@ -85,7 +85,7 @@ export function LandingPage() {
           <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-mindfind-lavender text-mindfind-teal">
             <BadgeCheck className="h-6 w-6" />
           </div>
-          <h2 className="text-lg font-semibold text-slate-900">3. Top 5 compatible y acreditado (HU-05 / HU-01)</h2>
+          <h2 className="text-lg font-semibold text-slate-900">3. Top 5 compatible y acreditado</h2>
           <p className="mt-2 text-sm leading-relaxed text-slate-600">
             Nuestro motor calcula tu compatibilidad ponderada únicamente con psicólogos verificados institucionalmente
             y explica claramente las razones de cada coincidencia.

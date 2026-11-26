@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { HeartHandshake, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { to: '/', label: 'Inicio', end: true },
@@ -16,9 +16,11 @@ export function Navbar() {
     <header className="sticky top-0 z-40 border-b border-mindfind-lavender-border/80 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
         <Link to="/" className="flex items-center gap-2.5 text-mindfind-teal transition-opacity hover:opacity-90">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-mindfind-teal text-white shadow-sm">
-            <HeartHandshake className="h-5 w-5" />
-          </span>
+          <img
+            src="/logo-mindfind.png"
+            alt="Logo de MindFind"
+            className="h-10 w-10 shrink-0 object-contain"
+          />
           <div className="leading-tight">
             <span className="block text-lg font-bold tracking-tight text-slate-900">MindFind</span>
             <span className="block text-[11px] font-medium text-mindfind-teal">Salud Mental Basada en Evidencia</span>
