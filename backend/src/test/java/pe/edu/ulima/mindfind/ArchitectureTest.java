@@ -46,8 +46,7 @@ class ArchitectureTest {
                     resideInAPackage("..identidad_acreditacion..")
                             .and(resideOutsideOfPackages(
                                     "..identidad_acreditacion.interfaces.acl..",
-                                    "..identidad_acreditacion.interfaces.events..")))
-            .allowEmptyShould(true);
+                                    "..identidad_acreditacion.interfaces.events..")));
 
     /**
      * identidad_acreditacion must not access internal layers of triage_matching
@@ -56,8 +55,7 @@ class ArchitectureTest {
     @ArchTest
     static final ArchRule identidadAcreditacionDoesNotDependOnTriageMatching = noClasses()
             .that().resideInAPackage("..identidad_acreditacion..")
-            .should().dependOnClassesThat().resideInAPackage("..triage_matching..")
-            .allowEmptyShould(true);
+            .should().dependOnClassesThat().resideInAPackage("..triage_matching..");
 
     /** Only infrastructure classes may touch JPA entities. */
     @ArchTest
